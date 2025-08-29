@@ -12,7 +12,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-8">
               <h1 className="text-2xl font-bold tracking-tight" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
-                YOUTH MAGAZINE
+                ПЛАНЕТА БАШКОРТОСТАН
               </h1>
               <nav className="hidden md:flex space-x-8">
                 <a href="#home" className="text-black hover:text-gray-600 transition-colors">Главная</a>
@@ -27,28 +27,7 @@ const Index = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section id="home" className="py-20 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-6 tracking-tight" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
-            Молодежный журнал
-            <br />
-            <span className="text-gray-600">реабилитационного центра</span>
-          </h2>
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed" style={{ fontFamily: 'Arial, sans-serif' }}>
-            Платформа для молодых авторов из Республиканского центра психолого-педагогической 
-            реабилитации и коррекции Башкортостана. Место, где каждый может поделиться своей историей.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-black text-white hover:bg-gray-800">
-              Читать статьи
-            </Button>
-            <Button size="lg" variant="outline" className="border-black text-black hover:bg-black hover:text-white">
-              Стать автором
-            </Button>
-          </div>
-        </div>
-      </section>
+
 
       <Separator className="my-16" />
 
