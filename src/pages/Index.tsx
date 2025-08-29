@@ -50,7 +50,7 @@ const Index = () => {
                 </Button>
               </div>
               <CardTitle className="text-4xl mb-4 font-bold" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
-                Краткая аннотация проекта
+                Второй шанс: История создания молодежного журнала
               </CardTitle>
             </CardHeader>
             <CardContent className="p-10">
